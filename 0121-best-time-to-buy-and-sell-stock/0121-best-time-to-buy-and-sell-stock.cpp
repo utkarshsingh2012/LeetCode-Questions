@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //think of kadanes algo
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         int res = 0;
