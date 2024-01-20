@@ -5,13 +5,8 @@ public:
         unordered_map<int, int> mp;
         for(int i = 0; i<n; i++){
             mp[nums[i]]++;
+            if(mp[nums[i]] > n/2)   return nums[i];
         }
-        
-        for(auto it: mp){
-            if(it.second > n/2){
-                return it.first;
-            }
-        }
-        return nums[0];
+        return 0;
     }
 };
