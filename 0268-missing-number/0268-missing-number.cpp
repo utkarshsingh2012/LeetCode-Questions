@@ -2,13 +2,10 @@ class Solution {
 public:
     int missingNumber(vector<int>& nums) {
         int n = nums.size();
-        int ans = 0;
+        unordered_set<int> st(nums.begin(), nums.end());
         for(int i = 0; i<=n; i++){
-            ans = ans^i;
+            if(st.find(i) == st.end())    return i;
         }
-        for(int i = 0; i<n; i++){
-            ans = ans^nums[i];
-        }
-        return ans;
+        return n+1;
     }
 };
