@@ -17,25 +17,15 @@ class Solution {
         return max(lh, rh) + 1;
     }
 public:
+    int res = 0;
     int diameterOfBinaryTree(TreeNode* root) {
+        
         if(root == nullptr) return 0;
-        queue<TreeNode*> q;
-        int res = 0;
-        q.push(root);
-        while(!q.empty()){
-            int sz = q.size();
-            for(int i = 0; i<sz; i++){
-                TreeNode* node = q.front();
-                q.pop();
-                int lh = ht(node->left);
-                int rh = ht(node->right);
-                res = max(res, lh+rh);
-                if(node->left != NULL)  q.push(node->left);
-                if(node->right != NULL) q.push(node->right);
-            }
-        }
+        int lh = ht(root->left);
+        int rh = ht(root->right);
+        res = max(res, lh+rh);
+        diameterOfBinaryTree(root->left);
+        diameterOfBinaryTree(root->right);
         return res;
-       
-
     }
 };
