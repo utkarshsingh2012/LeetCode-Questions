@@ -10,22 +10,19 @@
  * };
  */
 class Solution {
-    int ht(TreeNode* root){
+    int ht(TreeNode* root, int &maxi){
         if(root == NULL)    return 0;
-        int lh = ht(root->left);
-        int rh = ht(root->right);
+        int lh = ht(root->left, maxi);
+        int rh = ht(root->right, maxi);
+        maxi = max(maxi, lh+rh);
         return max(lh, rh) + 1;
     }
 public:
-    int res = 0;
+    
     int diameterOfBinaryTree(TreeNode* root) {
-        
         if(root == nullptr) return 0;
-        int lh = ht(root->left);
-        int rh = ht(root->right);
-        res = max(res, lh+rh);
-        diameterOfBinaryTree(root->left);
-        diameterOfBinaryTree(root->right);
-        return res;
+        int maxi = 0;
+        ht(root, maxi);
+        return maxi;
     }
 };
