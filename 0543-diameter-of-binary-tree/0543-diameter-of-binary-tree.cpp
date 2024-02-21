@@ -15,14 +15,13 @@ class Solution {
         int lh = ht(root->left, maxi);
         int rh = ht(root->right, maxi);
         maxi = max(maxi, lh+rh);
-        return max(lh, rh) + 1;
+        return 1+max(lh, rh);
     }
 public:
-    
     int diameterOfBinaryTree(TreeNode* root) {
-        if(root == nullptr) return 0;
+        if(root == NULL)    return 0;
         int maxi = 0;
-        ht(root, maxi);
+        int ans = ht(root, maxi);
         return maxi;
     }
 };
