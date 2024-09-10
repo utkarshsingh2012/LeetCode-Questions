@@ -35,14 +35,17 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0210-course-schedule-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0210-course-schedule-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Graph
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0210-course-schedule-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Heap (Priority Queue)
 |  |
@@ -52,4 +55,8 @@
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0803-cheapest-flights-within-k-stops) |
+## Topological Sort
+|  |
+| ------- |
+| [0210-course-schedule-ii](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0210-course-schedule-ii) |
 <!---LeetCode Topics End-->
