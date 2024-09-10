@@ -28,7 +28,7 @@ public:
                 }
             }
         }
-        for(int i :indeg) if(i != 0) return {};
+        if(res.size() != numCourses) return {};
         return res;
 
     }
