@@ -5,14 +5,17 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0059-spiral-matrix-ii) |
 ## Matrix
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0059-spiral-matrix-ii) |
 ## Simulation
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0059-spiral-matrix-ii) |
 ## Linked List
 |  |
 | ------- |
