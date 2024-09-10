@@ -1,43 +1,39 @@
 class Solution {
 public:
-    vector<int> res;
-    void print(vector<vector<int>>& matrix,int l ,int r ,int top ,int bottom){
-        for(int i = l ; i < r ; i++){
-            res.push_back(matrix[top][i]);
-        }
-        for(int i = top + 1; i < bottom ; i++){
-            res.push_back(matrix[i][r - 1]);
-        }
-        if(top == bottom - 1) return;
-        for(int i = r - 2; i >= l; i--){
-            res.push_back(matrix[bottom - 1][i]);
-        }
-        if(l == r- 1) return ;
-        for(int i = bottom - 2 ; i > top ; i--){
-            res.push_back(matrix[i][l]);
-        }
-        return;
-    }
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        int m = matrix[0].size();
-        int l = 0;
-        int r = m;
+        int left = 0;
+        int right = matrix[0].size() - 1;
         int top = 0;
-        int bottom = n;
-        while(top < bottom and l < r){
-            print(matrix,l,r,top,bottom);
-            l++;
-            r--;
-            top++;
-            bottom--;
+        int bottom = matrix.size() - 1;
+        int dir = 0;
+        vector<int> res ;
+        while(top <= bottom and left <= right){
+            if(dir == 0){
+                for(int i = left ; i <= right ; i++){
+                    res.push_back(matrix[top][i]);
+                }
+                top++;
+            }
+            else if(dir == 1){
+                for(int i = top ; i<= bottom ; i++){
+                    res.push_back(matrix[i][right]);
+                }
+                right --;
+            }
+            else if(dir == 2){
+                for(int i = right ; i >= left ; i--){
+                    res.push_back(matrix[bottom][i]);
+                }
+                bottom --;
+            }
+            else{
+                for(int i = bottom ; i >= top ; i--){
+                    res.push_back(matrix[i][left]);
+                }
+                left++;
+            }
+            dir = (dir + 1) % 4;
         }
         return res;
-
-        
-
-
-        
-
     }
 };
