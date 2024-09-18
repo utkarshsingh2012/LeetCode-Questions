@@ -19,6 +19,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0203-remove-linked-list-elements](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0203-remove-linked-list-elements) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Math
 |  |
@@ -63,4 +64,8 @@
 | ------- |
 | [0210-course-schedule-ii](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0310-minimum-height-trees) |
+## Recursion
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0203-remove-linked-list-elements) |
 <!---LeetCode Topics End-->
