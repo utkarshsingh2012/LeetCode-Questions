@@ -19,6 +19,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0203-remove-linked-list-elements](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0203-remove-linked-list-elements) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Math
@@ -68,4 +69,12 @@
 |  |
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0203-remove-linked-list-elements) |
+## Hash Table
+|  |
+| ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0160-intersection-of-two-linked-lists) |
+## Two Pointers
+|  |
+| ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0160-intersection-of-two-linked-lists) |
 <!---LeetCode Topics End-->
