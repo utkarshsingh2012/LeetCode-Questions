@@ -77,4 +77,8 @@
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/0160-intersection-of-two-linked-lists) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/utkarshsingh2012/LeetCode-Questions/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
